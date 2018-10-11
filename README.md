@@ -2,7 +2,7 @@
 
 This repository contains code for the following paper:
 
-***"What made you do this? Understanding black-box decisions with sufficient input subsets." Brandon Carter, Jonas Mueller, Siddhartha Jain, David Gifford. 2018.***  [[PDF]]()
+***"What made you do this? Understanding black-box decisions with sufficient input subsets." Brandon Carter, Jonas Mueller, Siddhartha Jain, David Gifford. 2018.***  [[arxiv]](https://arxiv.org/abs/1810.03805)
 
 In this work, we propose *sufficient input subsets*, minimal subsets of input features whose values alone suffice for the model to reach the same decision.
 We also extract general principles that globally govern the model's decision making by clustering such input patterns that appear across many data points.
