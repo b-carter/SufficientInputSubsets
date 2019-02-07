@@ -97,7 +97,7 @@ def highlight_multi_rationale(review, rationales, index_to_token,
     for i, rationale in enumerate(rationales):
         if hsl:
             # linearly-spaced interval, rounded
-            hsl_interval = np.rint(np.linspace(60, 90, num=len(rationale),
+            hsl_interval = np.rint(np.linspace(60, 85, num=len(rationale),
                                                endpoint=True))
         for rank, c in enumerate(rationale):
             assert(word_to_rationale[c] is None)  # rationales must be disjoint
