@@ -9,7 +9,7 @@ We also extract general principles that globally govern the model's decision mak
 Our approach is entirely model-agnostic.
 
 
-*Note: this code was intended for development. We recommend implementing the procedure (e.g. in TensorFlow or PyTorch) for performance-critical applications.*
+***Note: If you are looking to use the SIS method, we recommend taking a look at Google's implementation in the [google-research repository](https://github.com/google-research/google-research/tree/master/sufficient_input_subsets) (which only requires Python/NumPy, and contains extensive documentation and an interactive tutorial notebook). The code in this repository was used in the experiments presented in the paper, primarily for development. The SIS method was developed in the Gifford Lab at MIT CSAIL.***
 
 
 ##### Datasets
